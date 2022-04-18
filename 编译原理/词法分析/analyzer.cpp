@@ -103,6 +103,7 @@ void analyzer() {
 			cout << "(relop,EQ)" << endl;
 		else
 			cout << "(=,_)" << endl;
+		retract();
 	}
 	//;
 	else if (character == ';') {
