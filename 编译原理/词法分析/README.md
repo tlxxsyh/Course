@@ -3,20 +3,20 @@
 实现课本P13状态转换图所对应的词法分析器
 ## 函数说明
 - 清空character空白字符
-  void getbe();
+  `void getbe();`
 - 判断character中的字符是否为字母,是则返回true,否则返回false
-  bool letter();
+  `bool letter();`
 - 判断character中的字符是否为数字,是则返回true,否则返回false
-  bool digit();
+  `bool digit();`
 - 将token中的字符串与character中的字符连接并作为token中的新字符串
-  void concatenation();
+  `void concatenation();`
 - 清空token数组，并且保留上次获取的字符（即书上的扫描指针退一位）
-  void retract();
+  `void retract();`
 - 判断是不是保留字
-  int reserve();
+  `int reserve();`
 - 添加进表
-  void buildlist();
+  `void buildlist();`
 - 报错函数
-  void error();
+  `void error();`
 - 词法分析主体
-  void analyzer();
+  `void analyzer();`
